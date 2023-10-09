@@ -20,6 +20,7 @@ class HomePage extends StatelessWidget {
     return SafeArea(
         child: Scaffold(
       appBar: MyAppBar(),
+      drawer: mainDrawer(3),
       body: Padding(
         padding: const EdgeInsets.all(7.0),
         child: Column(

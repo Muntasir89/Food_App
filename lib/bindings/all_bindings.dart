@@ -1,3 +1,4 @@
+import 'package:food_mobile_app/controllers/drawer_controller.dart';
 import 'package:get/get.dart';
 import 'package:get/get_instance/src/bindings_interface.dart';
 
@@ -15,5 +16,6 @@ class MyBindings implements Bindings {
     Get.lazyPut(() => SwitchController());
     Get.lazyPut(() => FoodController());
     Get.lazyPut(() => SplashController());
+    Get.lazyPut(() => MainDrawerController());
   }
 }

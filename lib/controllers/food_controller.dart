@@ -61,7 +61,7 @@ class FoodController extends GetxController {
   }
 
   // For remove 1 item from quantities of Food
-  void remove(int index) {
+  void removeQ(int index) {
     if (salads[index].quantity > 1 && salads[index].quantity <= 9) {
       salads[index].quantity--;
     } else {
